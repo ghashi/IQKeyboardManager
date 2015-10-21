@@ -46,21 +46,21 @@
  @param frame Initial frame of barButtonItem
  @param title Title of barButtonItem.
  */
--(nonnull instancetype)initWithFrame:(CGRect)frame title:( NSString *)title NS_DESIGNATED_INITIALIZER;
+-( instancetype)initWithFrame:(CGRect)frame title:( NSString *)title NS_DESIGNATED_INITIALIZER;
 
 /**
  Unavailable. Please use initWithFrame:title: method
  */
--(nonnull instancetype)init NS_UNAVAILABLE;
+-( instancetype)init NS_UNAVAILABLE;
 
 /**
  Unavailable. Please use initWithFrame:title: method
  */
--(nonnull instancetype)initWithCoder:( NSCoder *)aDecoder NS_UNAVAILABLE;
+-( instancetype)initWithCoder:( NSCoder *)aDecoder NS_UNAVAILABLE;
 
 /**
  Unavailable. Please use initWithFrame:title: method
  */
-+ (nonnull instancetype)new NS_UNAVAILABLE;
++ ( instancetype)new NS_UNAVAILABLE;
 
 @end

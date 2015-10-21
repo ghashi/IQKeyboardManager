@@ -61,17 +61,17 @@
 /**
  Returns the superView of provided class type.
  */
--( UIView*)superviewOfClassType:(nonnull Class)classType;
+-( UIView*)superviewOfClassType:( Class)classType;
 
 /**
  Returns all siblings of the receiver which canBecomeFirstResponder.
  */
-@property (nonnull, nonatomic, readonly, copy) NSArray *responderSiblings;
+@property ( nonatomic, readonly, copy) NSArray *responderSiblings;
 
 /**
  Returns all deep subViews of the receiver which canBecomeFirstResponder.
  */
-@property (nonnull, nonatomic, readonly, copy) NSArray *deepResponderViews;
+@property ( nonatomic, readonly, copy) NSArray *deepResponderViews;
 
 ///-------------------------
 /// @name Special TextFields
@@ -103,17 +103,17 @@
 /**
  Returns a string that represent the information about it's subview's hierarchy. You can use this method to debug the subview's positions.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *subHierarchy;
+@property ( nonatomic, readonly, copy) NSString *subHierarchy;
 
 /**
  Returns an string that represent the information about it's upper hierarchy. You can use this method to debug the superview's positions.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *superHierarchy;
+@property ( nonatomic, readonly, copy) NSString *superHierarchy;
 
 /**
  Returns an string that represent the information about it's frame positions. You can use this method to debug self positions.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *debugHierarchy;
+@property ( nonatomic, readonly, copy) NSString *debugHierarchy;
 
 @end
 
@@ -126,6 +126,6 @@
 /**
  Short description for logging purpose.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *_IQDescription;
+@property ( nonatomic, readonly, copy) NSString *_IQDescription;
 
 @end
