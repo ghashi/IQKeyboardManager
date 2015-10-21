@@ -47,12 +47,12 @@
 /**
  Returns the UIViewController object that manages the receiver.
  */
-@property (nullable, nonatomic, readonly, strong) UIViewController *viewController;
+@property ( nonatomic, readonly, strong) UIViewController *viewController;
 
 /**
  Returns the topMost UIViewController object in hierarchy.
  */
-@property (nullable, nonatomic, readonly, strong) UIViewController *topMostController;
+@property ( nonatomic, readonly, strong) UIViewController *topMostController;
 
 ///-----------------------------------
 /// @name Superviews/Subviews/Siglings
@@ -61,7 +61,7 @@
 /**
  Returns the superView of provided class type.
  */
--(nullable UIView*)superviewOfClassType:(nonnull Class)classType;
+-( UIView*)superviewOfClassType:(nonnull Class)classType;
 
 /**
  Returns all siblings of the receiver which canBecomeFirstResponder.
@@ -94,7 +94,7 @@
 /**
  Returns current view transform with respect to the 'toView'.
  */
--(CGAffineTransform)convertTransformToView:(nullable UIView*)toView;
+-(CGAffineTransform)convertTransformToView:( UIView*)toView;
 
 ///-----------------
 /// @name Hierarchy

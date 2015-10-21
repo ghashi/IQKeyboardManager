@@ -111,7 +111,7 @@ extern NSInteger const kIQPreviousNextButtonToolbarTag;
 /**
  Placeholder Font. Default is nil.
  */
-@property(nullable, nonatomic, strong) UIFont *placeholderFont;
+@property( nonatomic, strong) UIFont *placeholderFont;
 
 ///--------------------------
 /// @name UITextView handling

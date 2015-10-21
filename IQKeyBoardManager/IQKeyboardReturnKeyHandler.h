@@ -47,12 +47,12 @@
 /**
  Add all the textFields available in UIViewController's view.
  */
--(nonnull instancetype)initWithViewController:(nullable UIViewController*)controller NS_DESIGNATED_INITIALIZER;
+-(nonnull instancetype)initWithViewController:( UIViewController*)controller NS_DESIGNATED_INITIALIZER;
 
 /**
  Unavailable. Please use initWithViewController: or init method
  */
--(nonnull instancetype)initWithCoder:(nullable NSCoder *)aDecoder NS_UNAVAILABLE;
+-(nonnull instancetype)initWithCoder:( NSCoder *)aDecoder NS_UNAVAILABLE;
 
 ///---------------
 /// @name Settings
@@ -61,7 +61,7 @@
 /**
  Delegate of textField/textView.
  */
-@property(nullable, nonatomic, weak) id<UITextFieldDelegate,UITextViewDelegate> delegate;
+@property( nonatomic, weak) id<UITextFieldDelegate,UITextViewDelegate> delegate;
 
 /**
  It help to choose the lastTextField instance from sibling responderViews. Default is IQAutoToolbarBySubviews.

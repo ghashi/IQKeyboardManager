@@ -46,7 +46,7 @@
  @param previousAction Previous button action name. Usually 'previousAction:(IQSegmentedNextPrevious*)segmentedControl'.
  @param nextAction Next button action name. Usually 'nextAction:(IQSegmentedNextPrevious*)segmentedControl'.
  */
-- (nonnull instancetype)initWithTarget:(nullable id)target previousAction:(nullable SEL)previousAction nextAction:(nullable SEL)nextAction NS_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithTarget:( id)target previousAction:( SEL)previousAction nextAction:( SEL)nextAction NS_DESIGNATED_INITIALIZER;
 
 /**
  Unavailable. Please use initWithTarget:previousAction:nextAction: method
@@ -56,7 +56,7 @@
 /**
  Unavailable. Please use initWithTarget:previousAction:nextAction: method
  */
--(nonnull instancetype)initWithCoder:(nullable NSCoder *)aDecoder NS_UNAVAILABLE;
+-(nonnull instancetype)initWithCoder:( NSCoder *)aDecoder NS_UNAVAILABLE;
 
 /**
  Unavailable. Please use initWithTarget:previousAction:nextAction: method
